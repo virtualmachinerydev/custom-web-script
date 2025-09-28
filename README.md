@@ -49,4 +49,51 @@ I'm not affiliated with anyone from the platform or Upwego's team, and any issue
 ![installing script](https://github.com/user-attachments/assets/08708417-534d-4f0e-87f7-00c11b0733f1)
 #### 3.4 Save the script by clicking File>Save:
 ![saving script](https://github.com/user-attachments/assets/ed578168-7c17-4ef7-9e68-3194aac190bf)
-#### That's it! You can now click Enter on your keyboard to move to the next question in multiple choice/gapped tasks.
+### That's it! You can now click Enter on your keyboard to move to the next question in multiple choice/gapped tasks.
+
+## If you're using Safari:
+1. **Install Userscripts from the App Store** (https://apps.apple.com/ru/app/userscripts/id1463298887?l=en-GB)
+2. **Enable the extension**:
+![installing userscript the app](https://github.com/user-attachments/assets/fa748c80-d24e-4fca-b2b9-6c2677d92891)
+3. **Open the extension settings and paste the following code into a new script:**
+```	
+ // ==UserScript==
+// @name         UserScript Next Keypress
+// @namespace    https://charliethenerd.neocities.com
+// @version      0.1
+// @description  Press "Next" button on Enter keypress
+// @author       charlie
+// @match        https://botat.upwego.ru/student/lessons/*
+// @icon         none
+// @grant        none
+// @run-at       document-idle
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    window.doTheThing = () => {
+        if (document.getElementsByClassName("b-btn animate b-report__next submit with-next")[0] != undefined) {
+            document.getElementsByClassName("b-btn animate b-report__next submit with-next")[0].click();
+        }
+    }
+
+    document.querySelector('body').addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+            window.doTheThing();
+        }
+    });
+})();
+```
+![userscriptsafariinstallationfinalgiftrimmed-ezgif com-speed](https://github.com/user-attachments/assets/220a36f4-114c-45d5-8a29-091f1409a20b)
+4. That's it! You can now click Enter on your keyboard to move to the next question in multiple choice/gapped tasks.
+
+# I don't want to use the script anymore:(
+### Sure! If you're using Chrome, you can disable the script either by toggling it in the Tampermonkey dashboard:
+
+### ...or by removing Tampermonkey from Chrome:
+
+### If you're using Safari, either disable the script by going into the Userscripts settings:
+
+### ...or delete Userscripts.app by putting it in the Trash (how you would do with any other app you wanted to uninstall from your Mac)
+
