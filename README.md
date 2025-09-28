@@ -90,10 +90,12 @@ I'm not affiliated with anyone from the platform or Upwego's team, and any issue
 
 # I don't want to use the script anymore:(
 ### Sure! If you're using Chrome, you can disable the script either by toggling it in the Tampermonkey dashboard:
+![ezgif com-optimize-2](https://github.com/user-attachments/assets/8a7550e0-dd2d-4608-b901-30ecf1b1445e)
 
 ### ...or by removing Tampermonkey from Chrome:
+![uninstalltampermonkey-ezgif com-optimize](https://github.com/user-attachments/assets/22df5fba-acea-4476-b1ea-7f63db4ec7c2)
 
 ### If you're using Safari, either disable the script by going into the Userscripts settings:
-
-### ...or delete Userscripts.app by putting it in the Trash (how you would do with any other app you wanted to uninstall from your Mac)
+![ezgif com-optimize](https://github.com/user-attachments/assets/504f9992-8555-4622-b8fb-e2b79f9a8c0b)
+### ...or delete Userscripts.app by putting it in the Trash (how you would uninstall any other app you wanted to uninstall from your Mac)
 
