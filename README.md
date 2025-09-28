@@ -49,7 +49,7 @@ I'm not affiliated with anyone from the platform or Upwego's team, and any issue
 ![installing script](https://github.com/user-attachments/assets/08708417-534d-4f0e-87f7-00c11b0733f1)
 #### 3.4 Save the script by clicking File>Save:
 ![saving script](https://github.com/user-attachments/assets/ed578168-7c17-4ef7-9e68-3194aac190bf)
-### That's it! You can now click Enter on your keyboard to move to the next question in multiple choice/gapped tasks.
+### That's it! Just refresh the Upwego page, and now you can now click Enter on your keyboard to move to the next question in multiple choice/gapped tasks.
 
 ## If you're using Safari:
 1. **Install Userscripts from the App Store** (https://apps.apple.com/ru/app/userscripts/id1463298887?l=en-GB)
@@ -86,7 +86,7 @@ I'm not affiliated with anyone from the platform or Upwego's team, and any issue
 })();
 ```
 ![userscriptsafariinstallationfinalgiftrimmed-ezgif com-speed](https://github.com/user-attachments/assets/220a36f4-114c-45d5-8a29-091f1409a20b)
-4. That's it! You can now click Enter on your keyboard to move to the next question in multiple choice/gapped tasks.
+4. That's it! Just refresh the Upwego page, and now you can now click Enter on your keyboard to move to the next question in multiple choice/gapped tasks.
 
 # I don't want to use the script anymore:(
 ### Sure! If you're using Chrome, you can disable the script either by toggling it in the Tampermonkey dashboard:
