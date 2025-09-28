@@ -9,10 +9,11 @@ I'm not affiliated with anyone from the platform or Upwego's team, and any issue
 ## If you're using Chrome:
 1. **Install the Tampermonkey extension at https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo** <img width="1273" height="492" alt="Screenshot 2025-09-21 at 5 06 27 PM" src="https://github.com/user-attachments/assets/67812c98-4e2e-4af4-b470-e5c8ad56637b" />
 2. **Enable the "Allow User Scripts" setting in the extension preferences**
-![ezgif-6cd3aa32f9bdec](https://github.com/user-attachments/assets/eb0570e3-1ce9-4958-88a0-5587fc01fc94)
+![ezgif-6cd3aa32f9bdec](https://github.com/user-attachments/assets/b6f26960-df47-4015-9830-ea82544d766d)
+
 3. **Open Tampermonkey and paste the code of the script**:
 
-> 1. Copy the script:
+#### 3.1. Copy the script:
 
 ```	
  // ==UserScript==
@@ -43,7 +44,9 @@ I'm not affiliated with anyone from the platform or Upwego's team, and any issue
     });
 })();
 ```
-> 2. Click on the extension and press "Create a new script..."
-> 3. Paste the script instead of the placeholder script
-![ezgif-6e6e3fa0c10370](https://github.com/user-attachments/assets/06448220-46b0-427a-bc07-de5552dd211e)
-i dont want to finish this im tired
+#### 3.2. Click on the extension and press "Create a new script..."
+#### 3.3. Paste the script instead of the placeholder script:
+![installing script](https://github.com/user-attachments/assets/08708417-534d-4f0e-87f7-00c11b0733f1)
+#### 3.4 Save the script by clicking File>Save:
+![saving script](https://github.com/user-attachments/assets/ed578168-7c17-4ef7-9e68-3194aac190bf)
+#### That's it! You can now click Enter on your keyboard to move to the next question in multiple choice/gapped tasks.
